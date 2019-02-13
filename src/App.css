@@ -1,0 +1,129 @@
+
+.addDex {
+    background-color: #ec5656;
+    color: white;
+    font-size: 50px
+}
+
+.barAddDex {
+background-color: #ec5656;
+bottom: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.dialog {
+    display: block;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    width: -webkit-fit-content;
+    height: -webkit-fit-content;
+    color: black;
+    margin: auto;
+    border-width: initial;
+    border-style: '';
+    border-color: initial;
+    border-image: initial;
+    padding: 1em;
+    background: white;
+}
+
+.card{
+    background-color: white;
+    padding: 10px 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+    width: 950px;
+    height: 700px;
+    margin-top: 5%;
+    z-index: 7000;
+}
+
+.cardShadow{
+    opacity: 1;
+    transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 5000;
+    position: fixed;
+    touch-action: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-tap-highlight-color: transparent;
+}
+
+.inputFind{
+border: 2px solid lightgray;
+  padding: 15px;
+  border-radius: 5px;
+  width: 93%;
+  outline-width: 0;
+}
+
+.cardPokemon{
+    background-color: #f3f4f7;
+    padding: 10px 10px;
+    box-shadow: 0 2px 4px 0 #d5d6dc, 0 2px 10px 0 #d5d6dc !important;
+    width: 900px;
+    height: 200px;
+    margin-top: 10px
+}
+
+.cardPokemon:hover{
+    background-color: #f3f4f7;
+    padding: 10px 10px;
+    box-shadow: 0 2px 4px 0 #aeaeae, 0 2px 10px 0 #aeaeae !important;
+    width: 900px;
+    height: 200px;
+    margin-top: 10px
+}
+
+.imageCard{
+    width: 170px;
+    height: 200px;
+    float: left;
+    border: 2px solid lightgray;
+}
+
+.labelDetailCard{
+    display: flex;
+    margin-left: 10px;
+    margin-top: -25px;
+}
+
+.barStatus{
+    border: 1px solid #ccc!important;
+    box-sizing: inherit;
+    width: 300px;
+    height: 30px;
+    margin-top: 16px;
+    margin-left: 5px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px 0 #d4d4d4, 0 2px 10px 0 #d4d4d4 !important;
+    background-color: #e4e4e4;
+}
+
+.barTrueStatus{
+    height: 32px;
+    width: 20%;
+    background-color: #f3701a;
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+    border-radius: 15px;
+    float: left;
+}
+
+.barHp{
+    margin-left: 31px;
+}
+
+.barStr{
+    margin-left: 23px;
+}
+
+.divCard{
+    overflow-y: scroll;
+    height: 600px;
+}
